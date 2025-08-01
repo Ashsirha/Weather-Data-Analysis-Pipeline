@@ -1,0 +1,41 @@
+# Core dependencies
+requests==2.31.0
+pandas==2.1.4
+numpy==1.24.3
+
+# Database
+sqlalchemy==2.0.23
+psycopg2-binary==2.9.9
+# sqlite3 is included in Python standard library
+
+# Configuration management
+python-dotenv==1.0.0
+pydantic==2.5.0
+
+# Web framework for dashboard
+flask==3.0.0
+plotly==5.17.0
+dash==2.14.2
+
+# Data validation and processing
+marshmallow==3.20.1
+jsonschema==4.20.0
+
+# Task scheduling
+schedule==1.2.0
+
+# Logging
+loguru==0.7.2
+
+# Testing
+pytest==7.4.3
+pytest-cov==4.1.0
+pytest-mock==3.12.0
+
+# Development
+black==23.11.0
+flake8==6.1.0
+isort==5.12.0
+
+# Optional: Machine Learning for predictions
+scikit-learn==1.3.2
